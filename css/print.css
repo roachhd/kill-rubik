@@ -1,0 +1,41 @@
+html,body{
+margin:0;
+padding:0;
+width:100%;
+background:transparent;
+}
+h1{
+display:block;
+}
+a:link,a:visited,a:active{
+padding:0;
+background:transparent;
+}
+#main{
+height:auto;
+background:transparent;
+}
+.page{
+float:none;
+overflow:visible;
+height:inherit;
+max-height:inherit;
+}
+.cube-solutions{
+float:none;
+width:100%;
+}
+.cube-solutions ul{
+max-height:inherit;
+overflow-y:visible;
+}
+#version,#menu,#console,#console-controls,#footer div.legal,#footer div.share,#left-pane,.cube-controls,.solution-actions a,.solution-fail-actions a{
+display:none;
+}
+#footer div.copyright{
+margin:0;
+padding:0;
+border:none;
+text-align:center;
+float:none;
+}
