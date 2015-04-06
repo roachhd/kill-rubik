@@ -2,6 +2,9 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
+
+<a href="http://s899.photobucket.com/user/bokchoy08/media/Mobile%20Uploads/cube-overlay.png.html" target="_blank"><img src="http://i899.photobucket.com/albums/ac196/bokchoy08/Mobile%20Uploads/cube-overlay.png" border="0" alt="cube-overlay.png photo cube-overlay.png"/></a>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="language" content="en" />
 <meta name="description" content="simole fast solution to solve the rubiks cube." />
@@ -22,3 +25,210 @@
 <link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
 </head>
 <body>
+<h1>SolveMyCube: A Rubik's Cube Solver</h1>
+<div id="version">1.0&beta;</div>
+<ul id="menu">
+<li class="active"><a href="#/solver">Cube Solver</a></li>
+<li><a href="#/about">About</a></li>
+<li><a href="#/contribute">Contribute</a></li>
+<li><a href="#/help">Help</a></li>
+</ul>
+<div id="main">
+<noscript><p class="bad"><big><strong>NOTICE:<br />This site requires JavaScript to properly run.<br />Please activate JavaScript if you wish to use this website.</strong></big></p><p>If you need help activating JavaScript in your browser, please visit <a href="http://www.activatejavascript.org/" class="external">activatejavascript.org</a> for easy instructions on how to do so.</p></noscript>
+<div id="page-solver" class="page">
+<h2>Cube Solutions</h2>
+<div id="left-pane">
+
+
+<div class="rubiks-cube">
+<!-- U -->
+<div class="z u u1"></div><div class="z u u2"></div><div class="z u u3"></div>
+<div class="z u u4"></div><div class="z u u5"></div><div class="z u u6"></div>
+<div class="z u u7"></div><div class="z u u8"></div><div class="z u u9"></div>
+<!-- R -->
+<div class="z r r1"></div><div class="z r r2"></div><div class="z r r3"></div>
+<div class="z r r4"></div><div class="z r r5"></div><div class="z r r6"></div>
+<div class="z r r7"></div><div class="z r r8"></div><div class="z r r9"></div>
+<!-- F -->
+<div class="z f f1"></div><div class="z f f2"></div><div class="z f f3"></div>
+<div class="z f f4"></div><div class="z f f5"></div><div class="z f f6"></div>
+<div class="z f f7"></div><div class="z f f8"></div><div class="z f f9"></div>
+<!-- D -->
+<div class="z d d1"></div><div class="z d d2"></div><div class="z d d3"></div>
+<div class="z d d4"></div><div class="z d d5"></div><div class="z d d6"></div>
+<div class="z d d7"></div><div class="z d d8"></div><div class="z d d9"></div>
+<!-- L -->
+<div class="z l l1"></div><div class="z l l2"></div><div class="z l l3"></div>
+<div class="z l l4"></div><div class="z l l5"></div><div class="z l l6"></div>
+<div class="z l l7"></div><div class="z l l8"></div><div class="z l l9"></div>
+<!-- B -->
+<div class="z b b1"></div><div class="z b b2"></div><div class="z b b3"></div>
+<div class="z b b4"></div><div class="z b b5"></div><div class="z b b6"></div>
+<div class="z b b7"></div><div class="z b b8"></div><div class="z b b9"></div>
+
+
+<img class="cube-overlay" src="http://s899.photobucket.com/user/bokchoy08/media/Mobile%20Uploads/cube-overlay.png.html" target="_blank"><img src="http://i899.photobucket.com/albums/ac196/bokchoy08/Mobile%20Uploads/cube-overlay.png" border="0" alt="cube-overlay.png photo cube-overlay.png" width="333" height="243" alt="" usemap="#cubemap" />
+<map name="cubemap" id="cubemap">
+<!-- U -->
+<area shape="poly" alt="" coords="151,1, 181,1, 161,21, 131,21" href="#U1" />
+<area shape="poly" alt="" coords="181,1, 211,1, 191,21, 161,21" href="#U2" />
+<area shape="poly" alt="" coords="211,1, 241,1, 221,21, 191,21" href="#U3" />
+<area shape="poly" alt="" coords="131,21, 161,21, 141,41, 111,41" href="#U4" />
+<area shape="poly" alt="" coords="161,21, 191,21, 171,41, 141,41" href="#U5" class="center-face" />
+<area shape="poly" alt="" coords="191,21, 221,21, 201,41, 171,41" href="#U6" />
+<area shape="poly" alt="" coords="111,41, 141,41, 121,61, 91,61" href="#U7" />
+<area shape="poly" alt="" coords="141,41, 171,41, 151,61, 121,61" href="#U8" />
+<area shape="poly" alt="" coords="171,41, 201,41, 181,61, 151,61" href="#U9" />
+<!-- R -->
+<area shape="poly" alt="" coords="181,61, 201,41, 201,71, 181,91" href="#R1" />
+<area shape="poly" alt="" coords="201,41, 221,21, 221,51, 201,71" href="#R2" />
+<area shape="poly" alt="" coords="221,21, 241,1, 241,31, 221,51" href="#R3" />
+<area shape="poly" alt="" coords="181,91, 201,71, 201,101, 181,121" href="#R4" />
+<area shape="poly" alt="" coords="201,71, 221,51, 221,81, 201,101" href="#R5" class="center-face" />
+<area shape="poly" alt="" coords="221,51, 241,31, 241,61, 221,81" href="#R6" />
+<area shape="poly" alt="" coords="181,121, 201,101, 201,131, 181,151" href="#R7" />
+<area shape="poly" alt="" coords="201,101, 221,81, 221,111, 201,131" href="#R8" />
+<area shape="poly" alt="" coords="221,81, 241,61, 241,91, 221,111" href="#R9" />
+<!-- F -->
+<area shape="rect" alt="" coords="91,61,120,90" href="#F1" />
+<area shape="rect" alt="" coords="121,61,150,90" href="#F2" />
+<area shape="rect" alt="" coords="151,61,180,90" href="#F3" />
+<area shape="rect" alt="" coords="91,91,120,120" href="#F4" />
+<area shape="rect" alt="" coords="121,91,150,120" href="#F5" class="center-face" />
+<area shape="rect" alt="" coords="151,91,180,120" href="#F6" />
+<area shape="rect" alt="" coords="91,121,120,150" href="#F7" />
+<area shape="rect" alt="" coords="121,121,150,150" href="#F8" />
+<area shape="rect" alt="" coords="151,121,180,150" href="#F9" />
+<!-- D -->
+<area shape="rect" alt="" coords="91,151,120,180" href="#D1" />
+<area shape="rect" alt="" coords="121,151,150,180" href="#D2" />
+<area shape="rect" alt="" coords="151,151,180,180" href="#D3" />
+<area shape="rect" alt="" coords="91,181,120,210" href="#D4" />
+<area shape="rect" alt="" coords="121,181,150,210" href="#D5" class="center-face" />
+<area shape="rect" alt="" coords="151,181,180,210" href="#D6" />
+<area shape="rect" alt="" coords="91,211,120,240" href="#D7" />
+<area shape="rect" alt="" coords="121,211,150,240" href="#D8" />
+<area shape="rect" alt="" coords="151,211,180,240" href="#D9" />
+<!-- L -->
+<area shape="rect" alt="" coords="1,61,30,90" href="#L1" />
+<area shape="rect" alt="" coords="31,61,60,90" href="#L2" />
+<area shape="rect" alt="" coords="61,61,90,90" href="#L3" />
+<area shape="rect" alt="" coords="1,91,30,120" href="#L4" />
+<area shape="rect" alt="" coords="31,91,60,120" href="#L5" class="center-face" />
+<area shape="rect" alt="" coords="61,91,90,120" href="#L6" />
+<area shape="rect" alt="" coords="1,121,30,150" href="#L7" />
+<area shape="rect" alt="" coords="31,121,60,150" href="#L8" />
+<area shape="rect" alt="" coords="61,121,90,150" href="#L9" />
+<!-- B -->
+<area shape="rect" alt="" coords="241,1,270,30" href="#B1" />
+<area shape="rect" alt="" coords="271,1,300,30" href="#B2" />
+<area shape="rect" alt="" coords="301,1,330,30" href="#B3" />
+<area shape="rect" alt="" coords="241,31,270,60" href="#B4" />
+<area shape="rect" alt="" coords="271,31,300,60" href="#B5" class="center-face" />
+<area shape="rect" alt="" coords="301,31,330,60" href="#B6" />
+<area shape="rect" alt="" coords="241,61,270,90" href="#B7" />
+<area shape="rect" alt="" coords="271,61,300,90" href="#B8" />
+<area shape="rect" alt="" coords="301,61,330,90" href="#B9" />
+</map>
+
+
+<div style="clear:both;"></div>
+</div>
+<div style="clear:both;"></div>
+
+
+<div id="selected-color"><div class="z"></div><div class="z"></div><div class="z"></div><div class="z"></div></div>
+<div style="clear:both;"></div>
+
+
+<ul id="cube-colorcount">
+<li class="ccc-u"><div class="z"></div> (<span></span>/9)</li>
+<li class="ccc-r"><div class="z"></div> (<span></span>/9)</li>
+<li class="ccc-f"><div class="z"></div> (<span></span>/9)</li>
+<li class="ccc-d"><div class="z"></div> (<span></span>/9)</li>
+<li class="ccc-l"><div class="z"></div> (<span></span>/9)</li>
+<li class="ccc-b"><div class="z"></div> (<span></span>/9)</li>
+</ul>
+<div style="clear:both;"></div>
+
+
+<img src="img/instructions.png" width="333" height="243" id="instructions" alt="" />
+<div style="clear:both;"></div>
+
+
+<form action="" method="get" id="cube-scramble">
+<p>
+<a href="#scramblecube" class="scramblecube">Scramble Cube</a>
+<small><label for="scramble-rand">
+<input type="checkbox" id="scramble-rand" />Random placement</label>
+(<a href="#random-placement" class="cube-randplacement">?!</a>)</small><br />
+&nbsp;<input type="text" size="1" maxlength="2" value="32" id="scramble-depth" /> Random moves
+</p>
+</form>
+<div style="clear:both;"></div>
+<hr />
+<form action="" method="get" id="cube-run">
+<p>
+<strong>Execute Moves:</strong>
+<small><label for="run-clear">
+<input type="checkbox" id="run-clear" />Auto clear after run.</label></small><br />
+<input type="text" size="40" id="run-moves" />
+<input type="submit" value="Run" /><br />
+<small><label for="keyboard">
+<input type="checkbox" id="keyboard" />Use keyboard shortcuts.</label>
+(<a href="#keyboard-sortcuts" class="cube-shortcuts">?</a>)</small>
+</p>
+</form>
+
+
+</div>
+
+
+<ul class="cube-controls">
+<li><a href="#clearcube" class="clearcube">Clear Cube</a></li>
+<li><a href="#resetcube" class="resetcube">Reset Cube</a></li>
+<li><a href="#solvecube" class="solvecube">Solve Cube</a></li>
+</ul>
+<div class="cube-solutions">
+<p><strong>Solutions:</strong></p>
+<ul>
+<li class="none"><em>There are no solutions yet. Solve a cube to see the solution here.</em></li>
+</ul>
+</div>
+<div id="pv-magnify"></div>
+
+
+</div>
+
+
+<div id="page-about" class="page">
+<h2>About</h2>
+<p>
+Kill Rubik uses the power of Herbert Kociemba's <a href="http://kociemba.org/cube.htm" class="external">Cube Explorer</a> web server functionality to provide the solutions needed to solve scambled 3x3x3 Rubik's Cubes in a small number of moves. Kill Rubik was developed entirely by Katie Ball, a lot of people know her as roachhd.
+</p>
+<h3>TODO</h3>
+<ul>
+<li>Version 1.0<ul>
+<li>Fix all known and reported bugs.</li>
+<li>Clean up code.</li>
+</ul></li>
+<li>Version 2.0<ul>
+<li>Make algorithms scrollable. For example, next/previous controls to navigate through each move of a algorithm, like from a solution or a random cube.</li>
+<li>View server information. Useful for <abbr title="Cube Explorer">CE</abbr> server owners who want to see the performance history of their servers and where they are compared to the other servers.</li>
+<li>Make friendly for handheld devices. Make interface look good in a phone, like the iPhone, by making layout fit nicely on small screens and displaying buttons for keyboard shortcuts.</li>
+<li>Solutions import/export. Allow the list of solutions to be imported or exported in both TXT (as supported by CE) and HTML formats.</li>
+<li>Allow color modification. Allow users to select their own colors for the cube and change the cube's color orientation.</li>
+<li>Auto complete cube as it is filled in. When the user is filling in the colors of the cube, remaining colors will automatically be filled in.</li>
+</ul></li>
+</ul>
+<h3>Changelog</h3>
+<ul>
+<li>2015-04-06 - Version 1.0.0<ul>
+<li>First release.</li>
+</ul></li>
+</ul>
+</div>
+
+
+</body>
+</html>
